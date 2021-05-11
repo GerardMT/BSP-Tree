@@ -144,21 +144,21 @@ int main() {
     vector<bsp_tree::polygon> polygons;
 
     cout << "Monkey" << "\n";
-    load_ply("../models/monkey.ply", polygons);
+    load_ply("../res/models/monkey.ply", polygons);
     experiment(polygons);
 
     polygons.clear();
 
     cout << "\n";
     cout << "Sphere" << "\n";
-    load_ply("../models/dragon.ply", polygons);
+    load_ply("../res/models/dragon.ply", polygons);
     experiment(polygons);
 
     polygons.clear();
 
     cout << "\n";
     cout << "Teapod" << "\n";
-    load_ply("../models/teapot.ply", polygons);
+    load_ply("../res/models/teapot.ply", polygons);
     experiment(polygons);
 
     cout << "\n";
