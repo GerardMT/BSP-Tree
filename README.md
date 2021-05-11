@@ -9,7 +9,7 @@ The software requires the *glm* library to be installed. In Fedora:
 	sudo dnf install glm-devel
 
 ## Provided example
-### Bulid and run
+### Build and run
 Clone the repository:
 
 	git clone https://github.com/GerardMT/BSP-Tree
