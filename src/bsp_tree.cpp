@@ -146,7 +146,7 @@ void bsp_tree::polygon_split(const bsp_tree::plane &pl, const polygon &pol, vect
     } else if (d2 > 0 && d1 < 0 && d3 < 0) {
         polygon_split_aux(pl, pol.p[1], pol.p[0], pol.p[2], polygons_back, polygons_front);
     } else if (d3 > 0 && d1 < 0 && d2 < 0) {
-        polygon_split_aux(pl, pol.p[0], pol.p[1], pol.p[2], polygons_back, polygons_front);
+        polygon_split_aux(pl, pol.p[2], pol.p[1], pol.p[0], polygons_back, polygons_front);
     }
 }
 
